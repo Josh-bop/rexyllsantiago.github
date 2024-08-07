@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Doe's professional portfolio showcasing skills, projects, and contact information.">
+    <meta name="keywords" content="portfolio, web developer, skills, projects, contact">
+    <meta name="author" content="Rexyll Santiago">
+    <title>Rexyll Santiago - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Rexyll Santiago</h1>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my work and skills.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="profile">
+                <img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
+                <p>I'm a passionate web developer with experience in creating stunning websites. I specialize in front-end development and have a strong background in HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                    <p>Proficient in HTML5 and CSS3, creating responsive and visually appealing web pages.</p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Skilled in JavaScript for adding interactivity and functionality to web applications.</p>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project Title</h3>
+                        <p>Short description of the project.</p>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+                <p id="success-message" class="form-message"></p>
+                <p id="error-message" class="form-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Rexyll. All rights reserved.</p>
+        <ul class="social-media">
+            <li><a href="https://www.facebook.com/rexyll.santiago" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/yourprofile" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://t.me/yourprofile" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
+        </ul>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
